@@ -13,6 +13,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <Image
+          src="/images/profile.jpg" // Route of the image file
+          height={144} // Desired size with correct aspect ratio
+          width={144} // Desired size with correct aspect ratio
+          alt="Your Name"
+        />
         <h1 className={styles.title}>
           Read <a href="/posts/first-post">this page!</a>
         </h1>
